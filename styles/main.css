@@ -1,0 +1,26 @@
+
+/* || RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* COLORS */
+    --BgColor: whitesmoke;
+    --FgColor: Black;
+}
+
+body{
+    background-color: var(--BgColor);
+    color: var(--FgColor);
+}
+
+/* || MEDIA QUERIES */
+@media (prefers-color-scheme: dark){
+    :root{
+        --BgColor: hsl(0,0%,0%,0.9);
+        --FgColor: whitesmoke;
+    }
+}   
